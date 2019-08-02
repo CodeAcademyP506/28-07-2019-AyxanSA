@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3e1dfd533c.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <canvas id="myCanvas"></canvas>
+        <input id="musicTime" type="range" value="0"  min="0" max="100">
+        <div class="icon">
+            <i class="fas fa-backward"></i>
+            <i class="fas fa-pause" id="pause"></i>
+            <i class="fas fa-play" id="play"></i>
+            <i class="fas fa-forward"></i>
+        </div>
+        <audio id="audio" src="Sagopa Kajmer, Ceza - Neyim Var ki.mp3"></audio>
+        <div id="mainVolume">
+        <i class="fas fa-volume-off"></i>
+        <input id="vlm" class="volume" type="range" value="0" name="points" min="0" max="100">
+        <i class="fas fa-volume-up"></i>
+        </div>
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
